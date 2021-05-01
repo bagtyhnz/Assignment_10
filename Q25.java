@@ -16,8 +16,8 @@ public class Q25 {
 		String str1 = scn.nextLine();
 		System.out.println("enter the 2nd word: ");
 		String str2 = scn.nextLine();
-		scn.close();
 		System.out.println(mergeStrings(str1, str2));
+		scn.close();
 	}
 
 	public static String mergeStrings(String str1, String str2) {
